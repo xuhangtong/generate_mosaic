@@ -8,6 +8,7 @@ OUTFILE = "mosaic.jpg" #Out file name
 tiles_numbers_width = 50 # tile numbers in width direction, tile numbers in height direction will be determined by original image
 size1 =128 #The pixel numbers of square tile images, 
 size = size1, size1
+#end of defining parameters
 
 def average(im): #function to calculate average RGB values of individual Image objective
 	width, height = im.size
