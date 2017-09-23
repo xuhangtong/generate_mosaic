@@ -1,3 +1,4 @@
+#Usage: generate_mosaic.py <target image> <image library>
 from PIL import Image, ImageOps
 from math import floor
 import glob, os,sys
